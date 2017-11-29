@@ -8,10 +8,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">STM MicroElectronics</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-item" href="#">PRODUCTS</a>
+            <a class="nav-link" href="#">PRODUCTS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">COMMUNITY</a>
@@ -37,6 +37,44 @@
         </ul>
       </div>
     </nav>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <div class="slideshow-container">
+            <img class="mySlides" src="pic1.jpg">
+            <img class="mySlides" src="pic2.png">
+            <img class="mySlides" src="pic3.jpg">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-1">
+                  <span class="w3-left" onclick="plusDivs(-1)">&#10094;</span>
+                </div>
+                <div class="col-sm-1 col-md-offset-10">
+                  <span class="w3-right" onclick="plusDivs(1)">&#10095;</span>
+                </div>
+              </div>
+            </div>
+      <!--
+            <div class="buttons-row" style="width:100%">
+              <span class="w3-left" onclick="plusDivs(-1)">&#10094;</span>
+              <span class="w3-right" onclick="plusDivs(1)">&#10095;</span>
+              <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+              <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+              <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+            </div>
+      -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Added to get the rotation on the pic slideshow -->
+    <script src="index.js"></script>
 
   </body>
 
