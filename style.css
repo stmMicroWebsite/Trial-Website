@@ -40,9 +40,12 @@ span {
   /*height: 250px;*/
 }
 
-.textPic{
+.textPic {
   display: block;
+  margin: auto;
+  width: 90%;
 }
+
 .boxes{
   max-width: 200px;
 }
@@ -95,11 +98,10 @@ span {
 .text {
   margin-left: 10%;
   margin-right: 10%;
+
+
+
 /*
-.textPic{
-  display: block;
-  margin: auto;
-}
 .info{
   text-align: center;
 }
