@@ -12,7 +12,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: 'M7lc1UVf-VE',
+    videoId: '4yQgL8UQPOw',
     events: {
       'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
@@ -42,12 +42,12 @@ function stopVideo() {
 function displayVid(num){
   console.log("Made it here");
   if(num == 1){
-    player.loadVideoById("M7lc1UVf-VE", 0, "large");
+    player.loadVideoById("4yQgL8UQPOw", 0, "large");
   }
   else if(num == 2){
-    player.loadVideoById("foPWBgOGbyc", 0, "large");
+    player.loadVideoById("RA3Kg7xLY8A", 0, "large");
   }
   else{
-    player.loadVideoById("3trTqY2Jvuo", 0, "large");
+    player.loadVideoById("HtzHc_NNeHw", 0, "large");
   }
 }
