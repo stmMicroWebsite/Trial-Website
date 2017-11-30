@@ -109,12 +109,33 @@ span {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-.footer{
-  padding-top: 10px;
+#player{
+  margin: auto;
+  display: block;
+}
+.row.social-media{
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 .boxes{
   display: block;
   margin: auto; */
+}
+.circles{
+  text-align: center;
+  margin: auto;
+}
+.fa.fa-circle{
+  border-color: black;
+  border-width: 5px;
+}
+.fa.fa-circle:hover{
+  color: gray;
+}
+.fa.fa-circle:focus{
+  color: white;
+}
+#player{
+  margin: auto;
+  display: block;
 }

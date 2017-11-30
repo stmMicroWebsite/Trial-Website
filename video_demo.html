@@ -1,0 +1,92 @@
+<!doctype HTML>
+<html>
+
+  <head>
+    <title>Homepage</title>
+    <script src="https://use.fontawesome.com/78971b7ba6.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">STMicroElectronics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">COMMUNITY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TUTORIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <div class="circles">
+      <span><i class="fa fa-circle" aria-hidden="true" onclick="displayVid(1)"></i></span>
+      <span><i class="fa fa-circle" aria-hidden="true" onclick="displayVid(2)"></i></span>
+      <span><i class="fa fa-circle" aria-hidden="true" onclick="displayVid(3)"></i></span>
+    </div>
+
+    <script src="video.js"></script>
+
+
+  <!-- For universal footer field -->
+    <footer>
+      <div class="container">
+
+        <!-- Social Media stuff-->
+        <div class="row social-media">
+          <div class="col-md-4">
+            <p>Connect with ST</p>
+          </div>
+          <div class="col-md-2 offset-md-2">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="col-md-2">
+            <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="col-md-2">
+            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <!-- Put in action to process the request-->
+            <form>
+              <span>Sign up for our newsletter:</span>
+              <span> <input type="text" name="email"/> </span>
+              <span> <input type="submit" value="Submit"> </span>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+
+</html>
