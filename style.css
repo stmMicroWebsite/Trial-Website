@@ -95,4 +95,24 @@ span {
 .text {
   margin-left: 10%;
   margin-right: 10%;
+/*
+.textPic{
+  display: block;
+  margin: auto;
+}
+.info{
+  text-align: center;
+}
+.container.blue{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boxes{
+  display: block;
+  margin: auto; */
 }
