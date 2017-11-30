@@ -7,3 +7,10 @@
   /*width: 500px;*/
   height: 250px;
 }
+
+.textPic{
+  display: block;
+}
+.boxes{
+  max-width: 200px;
+}
