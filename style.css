@@ -14,3 +14,23 @@
 .boxes{
   max-width: 200px;
 }
+.textPic{
+  display: block;
+  margin: auto;
+}
+.info{
+  text-align: center;
+}
+.container.blue{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boxes{
+  display: block;
+  margin: auto;
+}
