@@ -17,6 +17,10 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   color: white;
 }
@@ -46,8 +50,15 @@ span {
   width: 90%;
 }
 
-.boxes{
+.boxes {
   max-width: 200px;
+  text-align: left;
+}
+
+.box-label {
+  position: absolute;
+  bottom: 1rem;
+  left: 4.2rem;
 }
 
 .container {
@@ -80,8 +91,8 @@ span {
 
 .boxed-links {
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
   margin-left: 10%;
   margin-right: 10%;
 }
