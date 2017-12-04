@@ -29,6 +29,9 @@ span {
   color: white;
 }
 
+i {
+  color: white;
+}
 
 
 /*.slideshow-container{
@@ -111,7 +114,11 @@ span {
   margin-left: 10%;
   margin-right: 10%;
 
-
+.row.social-media{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 
 /*
 .info{
@@ -125,10 +132,7 @@ span {
   margin: auto;
   display: block;
 }
-.row.social-media{
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
+
 .boxes{
   display: block;
   margin: auto; */
