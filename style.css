@@ -30,7 +30,7 @@ span {
 }
 
 i {
-  color: white;
+  color: #222245;
 }
 
 
@@ -80,7 +80,6 @@ i {
   background-color: #222245;
 }
 
-
 .slideshow-container {
   position: relative;
   text-align: center;
@@ -123,11 +122,31 @@ i {
 .text {
   margin-left: 10%;
   margin-right: 10%;
+}
 
-.row.social-media{
-  color: white;
+.row.social-media {
+  color: #222245;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.white {
+  background-color: #fafafa ;
+}
+
+.dark-text {
+  color: #3f3f3f;
+}
+
+.shifted {
+  margin-left: 2rem;
+  z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /*
