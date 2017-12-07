@@ -143,11 +143,6 @@ i {
   z-index: 1;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 /*
 .info{
@@ -169,6 +164,7 @@ i {
 .circles{
   text-align: center;
   margin: auto;
+  color: white !important;
 }
 .fa.fa-circle{
   border-color: black;
